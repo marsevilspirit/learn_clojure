@@ -1,6 +1,10 @@
-(ns learn-clojure.core)
+(ns learn-clojure.core
+  (:gen-class))
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+(defn Example []
+  (def x 5)
+  (def y 5.25)
+  (println (type x))
+  (println (type y)))
+
+(Example)
